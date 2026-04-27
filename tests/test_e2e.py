@@ -15,20 +15,11 @@ class MockMessage:
     def __init__(self, content):
         self.content = content
 
-class MockChoice:
-    def __init__(self, message):
-        self.message = message
-
-class MockResponse:
-    def __init__(self, content):
-        self.choices = [MockChoice(MockMessage(content))]
-
 call_count = 0
 
-def mock_completion(*args, **kwargs):
+def mock_get_llm_response(messages):
     global call_count
     
-    messages = kwargs.get('messages', [])
     # Check if this is a brief generation
     if any("Review the following patient intake conversation" in m.get('content', '') for m in messages):
         content = json.dumps({
@@ -36,7 +27,7 @@ def mock_completion(*args, **kwargs):
             "hpi": "Started 2 days ago, throbbing pain",
             "ros": "No nausea or vomiting"
         })
-        return MockResponse(content)
+        return content
         
     # Normal chat flow
     stages = ['CHIEF_COMPLAINT', 'HPI', 'FOCUSED_ROS', 'CLARIFICATION', 'COMPLETE']
@@ -56,12 +47,15 @@ def mock_completion(*args, **kwargs):
         })
     
     call_count += 1
-    return MockResponse(content)
+    return content
 
 def run_server():
     # Use config and server to allow graceful shutdown if needed,
     # though daemon=True is usually enough for a script
-    uvicorn.run(main.app, host="127.0.0.1", port=8000, log_level="error")
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    import main
+    uvicorn.run(main.app, host="127.0.0.1", port=8001, log_level="error")
 
 def test_chat_flow():
     global call_count
@@ -72,7 +66,7 @@ def test_chat_flow():
     server_thread.start()
     time.sleep(2)  # Wait for server to be ready
     
-    with patch('main.completion', side_effect=mock_completion):
+    with patch('main.get_llm_response', side_effect=mock_get_llm_response):
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             
@@ -81,7 +75,7 @@ def test_chat_flow():
             context = browser.new_context(record_video_dir="videos/")
             page = context.new_page()
             
-            page.goto("http://localhost:8000/static/index.html")
+            page.goto("http://localhost:8001/")
             
             # Wait for greeting message (from startIntake in app.js)
             page.wait_for_selector(".agent-message", timeout=10000)
