@@ -48,6 +48,21 @@ python main.py
 ```
 5. Open your browser to `http://localhost:8080/` to interact with the agent.
 
+## 🧪 Testing
+
+The project includes a comprehensive test suite covering unit, integration, and end-to-end (E2E) testing.
+
+### Test Types
+- **Unit Tests**: Test core utility functions, JSON parsing logic, and LLM provider selection.
+- **Integration Tests**: Test API endpoints (`/chat`, `/brief`) using FastAPI `TestClient` with mocked LLM responses.
+- **End-to-End Tests**: Full browser-based automation using Playwright to verify the complete patient journey and brief generation.
+
+### Running Tests
+To run all tests:
+```bash
+pytest tests/ -v
+```
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
