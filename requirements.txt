@@ -1,6 +1,7 @@
 fastapi>=0.100.0
 uvicorn>=0.23.0
-litellm>=1.0.0
+openrouter
 pydantic>=2.0.0
 pydantic-settings>=2.0.0
 python-dotenv>=1.0.0
+cerebras-cloud-sdk

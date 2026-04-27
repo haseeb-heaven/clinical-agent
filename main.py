@@ -5,12 +5,11 @@ import logging
 import re
 from enum import Enum
 from typing import List, Dict, Optional
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
-from litellm import completion
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -140,33 +139,22 @@ def get_llm_response(messages: list):
         
     elif provider == "openrouter":
         model = os.getenv("OPENROUTER_MODEL", "openrouter/auto")
-        api_base = os.getenv("OPENROUTER_API_BASE", "https://openrouter.ai/api/v1")
-        app_name = os.getenv("OR_APP_NAME", "Intake Agent")
-        site_url = os.getenv("OR_SITE_URL", "http://localhost:8080")
+        from openrouter import OpenRouter
+        
+        client = OpenRouter(
+            api_key=os.getenv("OPENROUTER_API_KEY")
+        )
         
         if not model.startswith("openrouter/"):
             model = f"openrouter/{model}"
             
-        resp = completion(
-            model=model,
-            api_base=api_base,
-            headers={
-                "HTTP-Referer": site_url,
-                "X-Title": app_name
-            },
-            messages=messages,
-            max_tokens=1000,
-            temperature=0.1
-        )
-        return resp.choices[0].message.content
-        
-    elif provider == "gemini":
-        model = os.getenv("GEMINI_MODEL", "gemini/gemini-pro")
-        resp = completion(
+        resp = client.chat.completions.create(
             model=model,
             messages=messages,
-            max_tokens=1000,
-            temperature=0.1
+            extra_headers={
+                "HTTP-Referer": os.getenv("OR_SITE_URL", "http://localhost:8080"),
+                "X-Title": os.getenv("OR_APP_NAME", "Intake Agent")
+            }
         )
         return resp.choices[0].message.content
         
