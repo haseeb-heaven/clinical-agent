@@ -4,51 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinical Intake Agent</title>
+    <meta name="description" content="AI-powered clinical intake agent for structured patient history collection using OLDCARTS framework.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Clinical Intake</h1>
-        </header>
-        
-        <main class="main-content">
-            <section class="chat-section">
+    <div class="app-shell">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                <span>ClinAI</span>
+            </div>
+            <div class="sidebar-section">
+                <p class="sidebar-label">Session</p>
+                <div class="session-badge" id="session-display">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/></svg>
+                    <span id="session-short">—</span>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <p class="sidebar-label">Stage Progress</p>
+                <div class="stage-tracker" id="stage-tracker">
+                    <div class="stage-step active" data-stage="GREETING">Greeting</div>
+                    <div class="stage-step" data-stage="CHIEF_COMPLAINT">Chief Complaint</div>
+                    <div class="stage-step" data-stage="HPI">HPI</div>
+                    <div class="stage-step" data-stage="FOCUSED_ROS">Review of Systems</div>
+                    <div class="stage-step" data-stage="CLARIFICATION">Clarification</div>
+                    <div class="stage-step" data-stage="COMPLETE">Complete</div>
+                </div>
+            </div>
+            <div class="sidebar-section sidebar-actions">
+                <button id="new-session-btn" class="btn btn-outline">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+                    New Session
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main area -->
+        <main class="main-panel">
+
+            <!-- Chat panel -->
+            <section class="chat-panel">
+                <div class="chat-header">
+                    <div>
+                        <h1 class="chat-title">Clinical Intake</h1>
+                        <p class="chat-subtitle">AI-Assisted Patient History Collection</p>
+                    </div>
+                    <div class="header-controls">
+                        <button id="voice-toggle-btn" class="icon-btn" title="Toggle Voice Mode">
+                            <svg id="mic-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                                <line x1="12" y1="19" x2="12" y2="22"/>
+                                <line x1="8" y1="22" x2="16" y2="22"/>
+                            </svg>
+                            <span class="voice-label">Voice Off</span>
+                        </button>
+                    </div>
+                </div>
+
                 <div id="chat-window" class="chat-window">
                     <div class="message system-message">
-                        Welcome to the Clinical Intake Agent. Please type your message below to begin.
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                        Welcome to the Clinical Intake Agent. The agent will begin the intake automatically.
                     </div>
                 </div>
-                
+
                 <div class="typing-indicator hidden" id="typing-indicator">
-                    <span>Agent is typing...</span>
+                    <div class="typing-dots"><span></span><span></span><span></span></div>
+                    <span>Agent is responding…</span>
                 </div>
-                
+
                 <div class="input-area">
-                    <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
-                    <button id="send-btn">Send</button>
+                    <button id="mic-btn" class="mic-btn" title="Hold to speak">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="22"/>
+                            <line x1="8" y1="22" x2="16" y2="22"/>
+                        </svg>
+                    </button>
+                    <input type="text" id="user-input" placeholder="Type your response here… or use the mic" autocomplete="off">
+                    <button id="send-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
                 </div>
             </section>
-            
-            <section class="brief-section hidden" id="brief-section">
-                <h2>Clinical Brief</h2>
+
+            <!-- Brief panel -->
+            <aside class="brief-panel hidden" id="brief-section">
+                <div class="brief-header">
+                    <div>
+                        <h2>Clinical Brief</h2>
+                        <p class="brief-subtitle">AI-generated summary ready for physician review</p>
+                    </div>
+                    <div class="brief-actions">
+                        <button id="copy-brief-btn" class="btn btn-ghost" title="Copy to clipboard">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button id="download-brief-btn" class="btn btn-ghost" title="Download as text file">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Download
+                        </button>
+                    </div>
+                </div>
+
                 <div class="brief-content">
-                    <div class="brief-item">
-                        <h3>Chief Complaint (CC)</h3>
-                        <p id="brief-cc">Loading...</p>
+                    <div class="brief-card">
+                        <div class="brief-card-label">
+                            <span class="brief-tag cc">CC</span>
+                            Chief Complaint
+                        </div>
+                        <p id="brief-cc">Loading…</p>
                     </div>
-                    <div class="brief-item">
-                        <h3>History of Present Illness (HPI)</h3>
-                        <p id="brief-hpi">Loading...</p>
+                    <div class="brief-card">
+                        <div class="brief-card-label">
+                            <span class="brief-tag hpi">HPI</span>
+                            History of Present Illness
+                        </div>
+                        <p id="brief-hpi">Loading…</p>
                     </div>
-                    <div class="brief-item">
-                        <h3>Review of Systems (ROS)</h3>
-                        <p id="brief-ros">Loading...</p>
+                    <div class="brief-card">
+                        <div class="brief-card-label">
+                            <span class="brief-tag ros">ROS</span>
+                            Review of Systems
+                        </div>
+                        <p id="brief-ros">Loading…</p>
                     </div>
                 </div>
-            </section>
+
+                <p class="brief-disclaimer">
+                    ⚠️ This AI-generated brief is for informational purposes only. Always verify with the patient and supervising clinician before clinical use.
+                </p>
+            </aside>
         </main>
     </div>
+
     <script src="/static/app.js"></script>
 </body>
 </html>

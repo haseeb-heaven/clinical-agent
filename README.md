@@ -26,13 +26,22 @@ flowchart TD
 
 ## 📸 Product Demo
 
-Here is a full demonstration of the Clinical Intake Agent in action from start to finish:
+Here is a full demonstration of the Clinical Intake Agent in action — from the initial greeting through a 3-turn patient conversation to the auto-generated **Clinical Brief** displayed in the side panel.
 
 ### Demo Video
-![Clinical Agent Web Demo](videos/demo_video.webp)
 
-### Chat Interface Screenshot
-![Clinical Agent Chat Conversation](videos/demo_screenshot.png)
+The recording below shows a complete intake session:
+1. Patient reports **sharp chest pain (7/10)** worsening with breathing
+2. Agent systematically collects HPI using OLDCARTS framework
+3. After 3 exchanges the intake completes and the Clinical Brief is generated with **Chief Complaint**, **HPI**, and **Review of Systems**
+
+![Clinical Intake Agent — Full Demo](videos/demo_video_final.webp)
+
+### UI Screenshot — Clinical Brief Panel
+
+The screenshot below shows the completed intake with the generated Clinical Brief visible on the right panel, stage progress tracked in the sidebar, and the full conversation history in the centre.
+
+![Clinical Agent Chat + Clinical Brief](videos/demo_screenshot.png)
 
 ## 🛠️ Installation & Setup
 
