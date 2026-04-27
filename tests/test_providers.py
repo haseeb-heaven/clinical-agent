@@ -1,6 +1,4 @@
 import pytest
-import json
-import os
 from unittest.mock import patch, MagicMock
 from main import get_llm_response
 
