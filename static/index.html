@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Intake Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Clinical Intake</h1>
+        </header>
+        
+        <main class="main-content">
+            <section class="chat-section">
+                <div id="chat-window" class="chat-window">
+                    <div class="message system-message">
+                        Welcome to the Clinical Intake Agent. Please type your message below to begin.
+                    </div>
+                </div>
+                
+                <div class="typing-indicator hidden" id="typing-indicator">
+                    <span>Agent is typing...</span>
+                </div>
+                
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+                    <button id="send-btn">Send</button>
+                </div>
+            </section>
+            
+            <section class="brief-section hidden" id="brief-section">
+                <h2>Clinical Brief</h2>
+                <div class="brief-content">
+                    <div class="brief-item">
+                        <h3>Chief Complaint (CC)</h3>
+                        <p id="brief-cc">Loading...</p>
+                    </div>
+                    <div class="brief-item">
+                        <h3>History of Present Illness (HPI)</h3>
+                        <p id="brief-hpi">Loading...</p>
+                    </div>
+                    <div class="brief-item">
+                        <h3>Review of Systems (ROS)</h3>
+                        <p id="brief-ros">Loading...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

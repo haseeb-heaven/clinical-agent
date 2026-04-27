@@ -1,0 +1,465 @@
+2026-04-27 13:06:55,879 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:06:56,719 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:07:18,257 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:07:19,848 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:07:33,703 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:07:35,190 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:07:56,287 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:07:57,221 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:09:29,302 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:09:30,550 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:10:31,651 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:10:33,038 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:10:36,261 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:10:36,593 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:15:52,117 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:15:52,842 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:16:00,438 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:16:01,957 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:16:53,510 - LiteLLM - INFO - 
+LiteLLM completion() model= free; provider = openrouter
+2026-04-27 13:16:54,236 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"Invalid URL: ","code":502,"metadata":{"provider_name":"Stealth"}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:18:45,886 - LiteLLM - INFO - 
+LiteLLM completion() model= google/gemini-2.0-flash-lite-preview-02-05:free; provider = openrouter
+2026-04-27 13:18:46,995 - main - ERROR - LLM Error: litellm.BadRequestError: OpenrouterException - {"error":{"message":"google/gemini-2.0-flash-lite-preview-02-05:free is not a valid model ID","code":400},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:19:33,591 - LiteLLM - INFO - 
+LiteLLM completion() model= google/gemini-2.0-flash-lite-preview-02-05:free; provider = openrouter
+2026-04-27 13:19:33,750 - main - ERROR - LLM Error: litellm.BadRequestError: OpenrouterException - {"error":{"message":"google/gemini-2.0-flash-lite-preview-02-05:free is not a valid model ID","code":400},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:20:06,919 - LiteLLM - INFO - 
+LiteLLM completion() model= google/gemini-2.0-flash-lite-preview-02-05:free; provider = openrouter
+2026-04-27 13:20:07,391 - main - ERROR - LLM Error: litellm.BadRequestError: OpenrouterException - {"error":{"message":"google/gemini-2.0-flash-lite-preview-02-05:free is not a valid model ID","code":400},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:21:20,564 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:21:26,153 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:21:26,156 - main - INFO - LLM Response: {
+  "agent_message": "Hello! I'm here to help with your visit today. How can I assist you?",
+  "next_stage": "CHIEF_COMPLAINT"
+}
+2026-04-27 13:21:53,034 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:21:57,814 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:21:57,814 - main - INFO - LLM Response: {
+  "agent_message": "Thank you for sharing. Could you tell me when the sore throat started and if you’ve noticed any other symptoms like cough or difficulty swallowing?",
+  "next_stage": "HPI"
+}
+2026-04-27 13:23:24,707 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:23:30,021 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:23:30,023 - main - INFO - LLM Response: {"agent_message":"Got it. When did the cough start, and would you describe the fever as low-grade or high?","next_stage":"HPI"}
+2026-04-27 13:23:46,323 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:23:49,084 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:23:49,084 - main - INFO - LLM Response: {
+  "agent_message": "Thank you for the details. Could you tell me if the sore throat hurts more when you swallow, and have you noticed any swelling or tenderness in your neck or any ear pain?",
+  "next_stage": "HPI"
+}
+2026-04-27 13:24:07,916 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:24:10,911 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:24:10,911 - main - INFO - LLM Response: {"agent_message":"Thank you for the information. Have you experienced any shortness of breath, chest discomfort, or wheezing with the cough?","next_stage":"FOCUSED_ROS"}
+2026-04-27 13:24:38,571 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:24:43,686 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:24:43,688 - main - INFO - LLM Response: {"agent_message":"Thank you for letting me know. Have you had any recent exposure to sick individuals, recent travel, or changes in your environment that might be relevant?","next_stage":"FOCUSED_ROS"}
+2026-04-27 13:24:50,897 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:24:55,158 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:24:55,159 - main - INFO - LLM Response: {"agent_message":"Thank you for confirming. Have you taken any medications or tried home remedies for your symptoms, such as fever reducers or throat lozenges?","next_stage":"FOCUSED_ROS"}
+2026-04-27 13:25:06,063 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:25:10,312 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:25:10,313 - main - INFO - LLM Response: {
+  "agent_message": "No problem. Are there any other symptoms you’ve experienced, such as headaches, fatigue, muscle aches, or gastrointestinal issues?",
+  "next_stage": "FOCUSED_ROS"
+}
+2026-04-27 13:25:24,707 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:25:27,940 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:25:27,940 - main - INFO - LLM Response: {"agent_message":"Thank you for confirming. I have gathered all the necessary information about your symptoms. We'll now move to the clarification stage to ensure we haven't missed anything important.","next_stage":"CLARIFICATION"}
+2026-04-27 13:25:37,412 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:25:40,994 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:25:53,496 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:25:56,352 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:25:56,353 - main - INFO - LLM Response: {"agent_message":"Thank you for confirming. I have all the necessary information now. I will finalize your intake. Have a great day and take care!","next_stage":"COMPLETE"}
+2026-04-27 13:25:56,362 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:25:58,169 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 12502. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:27:02,522 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:27:05,638 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:27:05,639 - main - INFO - LLM Response: {"analysis":"We need to output JSON with agent_message and next_stage. Current stage GREETING. We greet and ask how can help. Should ask 1-2 questions. So: "   }
+2026-04-27 13:28:24,770 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:28:29,055 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:28:29,056 - main - INFO - LLM Response: {"agent_message":"Hello! I’m happy to assist you today. How can I help you?","next_stage":"CHIEF_COMPLAINT"}
+2026-04-27 13:28:48,221 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:28:52,620 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:28:52,620 - main - INFO - LLM Response: {
+  "agent_message": "I’m sorry you’re feeling unwell. Besides the sore throat and fever, have you noticed any other symptoms such as cough, congestion, or body aches?",
+  "next_stage": "HPI"
+}
+2026-04-27 13:29:18,840 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:29:22,070 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:29:22,071 - main - INFO - LLM Response: {
+  "agent_message": "Thank you for letting me know. Could you tell me when the sore throat and fever started, and how severe the pain and fever have been on a scale of 1 to 10?",
+  "next_stage": "HPI"
+}
+2026-04-27 13:29:43,118 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:29:49,523 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:29:49,523 - main - INFO - LLM Response: {"agent_message":"Thank you for providing those details. To confirm, the sore throat and fever began three days ago, with the pain rating around 6 out of 10, and you have been feeling very tired but have no cough or congestion. Is there anything else you’d like to add, such as any recent exposures, medication use, or allergies?","next_stage":"CLARIFICATION"}
+2026-04-27 13:30:05,914 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:30:09,961 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:30:09,961 - main - INFO - LLM Response: {"agent_message":"Thank you for confirming. I have all the necessary information for your intake. If you have any further concerns, feel free to reach out. Take care!","next_stage":"COMPLETE"}
+2026-04-27 13:30:09,971 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:30:11,683 - main - ERROR - LLM Error: litellm.APIError: APIError: OpenrouterException - {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 12388. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:31:38,219 - LiteLLM - INFO - 
+LiteLLM completion() model= mistralai/mistral-7b-instruct:free; provider = openrouter
+2026-04-27 13:31:38,727 - main - ERROR - LLM Error: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for mistralai/mistral-7b-instruct:free.","code":404},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:33:08,823 - LiteLLM - INFO - 
+LiteLLM completion() model= meta-llama/llama-3.3-70b-instruct:free; provider = openrouter
+2026-04-27 13:33:10,132 - main - ERROR - LLM Error: litellm.RateLimitError: RateLimitError: OpenrouterException - {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:34:07,831 - LiteLLM - INFO - 
+LiteLLM completion() model= meta-llama/llama-3.3-70b-instruct:free; provider = openrouter
+2026-04-27 13:34:09,495 - main - ERROR - LLM Error: litellm.RateLimitError: RateLimitError: OpenrouterException - {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_38uWgSaQ5xFjgLlOS7e2y3pnFIy"}
+2026-04-27 13:35:31,274 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:35:33,965 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:35:33,967 - main - INFO - LLM Response: {
+  "agent_message": "Hello, thank you for contacting us. How can I help you today?",
+  "next_stage": "CHIEF_COMPLAINT"
+}
+2026-04-27 13:35:58,946 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:36:04,694 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:36:04,694 - main - INFO - LLM Response:  {
+"agent_message": "I see, you've been experiencing a sore throat and fever for the past three days. Could you please tell me when these symptoms started and if there's any specific time they get worse or better?",
+"next_stage": "HPI"
+}
+2026-04-27 13:36:35,294 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:36:40,891 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:36:40,894 - main - INFO - LLM Response:  {
+"agent_message": "I see, you've been experiencing a sore throat and fever for the past three days that worsens at night. Is there any specific aggravating or alleviating factor you've noticed for these symptoms?",
+"next_stage": "CLARIFICATION"
+}
+2026-04-27 13:37:27,176 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:37:30,927 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:37:30,928 - main - INFO - LLM Response: Okay, I understand. So to confirm, you have a sore throat and fever that started 3 days ago, it's worse at night, and nothing seems to alleviate it. Is that correct?
+2026-04-27 13:37:30,928 - main - ERROR - JSON Parse Error: Expecting value: line 1 column 1 (char 0) - Content: Okay, I understand. So to confirm, you have a sore throat and fever that started 3 days ago, it's worse at night, and nothing seems to alleviate it. Is that correct?
+2026-04-27 13:45:27,944 - main - DEBUG - Using provider: openrouter
+2026-04-27 13:45:27,945 - LiteLLM - DEBUG - 
+
+2026-04-27 13:45:27,946 - LiteLLM - DEBUG - [92mRequest to litellm:[0m
+2026-04-27 13:45:27,946 - LiteLLM - DEBUG - [92mlitellm.completion(model='openrouter/auto', api_base='https://openrouter.ai/api/v1', headers={'HTTP-Referer': 'http://localhost:8080', 'X-Title': 'Intake Agent'}, messages=[{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: GREETING\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}], max_tokens=1000, temperature=0.1)[0m
+2026-04-27 13:45:27,948 - LiteLLM - DEBUG - 
+
+2026-04-27 13:45:27,977 - LiteLLM - DEBUG - Removing thought signatures from tool call IDs for non-Gemini model
+2026-04-27 13:45:27,978 - LiteLLM - DEBUG - self.optional_params: {}
+2026-04-27 13:45:27,979 - LiteLLM - DEBUG - SYNC kwargs[caching]: False; litellm.cache: None; kwargs.get('cache')['no-cache']: False
+2026-04-27 13:45:27,992 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:27,993 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:27,994 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:28,028 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:28,028 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:28,029 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:28,030 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:28,031 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:45:28,032 - LiteLLM - DEBUG - 
+LiteLLM: Params passed to completion() {'model': 'auto', 'functions': None, 'function_call': None, 'temperature': 0.1, 'top_p': None, 'n': None, 'stream': None, 'stream_options': None, 'stop': None, 'max_tokens': 1000, 'max_completion_tokens': None, 'modalities': None, 'prediction': None, 'audio': None, 'presence_penalty': None, 'frequency_penalty': None, 'logit_bias': None, 'user': None, 'custom_llm_provider': 'openrouter', 'response_format': None, 'seed': None, 'tools': None, 'tool_choice': None, 'max_retries': None, 'logprobs': None, 'top_logprobs': None, 'extra_headers': None, 'api_version': None, 'parallel_tool_calls': None, 'drop_params': None, 'allowed_openai_params': None, 'reasoning_effort': None, 'verbosity': None, 'additional_drop_params': None, 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: GREETING\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}], 'thinking': None, 'web_search_options': None, 'safety_identifier': None, 'service_tier': None}
+2026-04-27 13:45:28,034 - LiteLLM - DEBUG - 
+LiteLLM: Non-Default params passed to completion() {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:45:28,046 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:28,046 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:28,047 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:28,048 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:28,048 - LiteLLM - DEBUG - Final returned optional params: {'temperature': 0.1, 'max_tokens': 1000, 'extra_body': {}}
+2026-04-27 13:45:28,048 - LiteLLM - DEBUG - self.optional_params: {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:45:28,049 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:28,049 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:28,050 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:28,051 - LiteLLM - DEBUG - [92m
+
+POST Request Sent from LiteLLM:
+curl -X POST \
+https://openrouter.ai/api/v1/chat/completions \
+-H 'HTTP-Referer: http://localhost:8080' -H 'X-Title: Intake Agent' -H 'Authorization: Be****ed' -H 'Content-Type: application/json' \
+-d '{'model': 'auto', 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: GREETING\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}], 'temperature': 0.1, 'max_tokens': 1000, 'usage': {'include': True}}'
+[0m
+
+2026-04-27 13:45:28,054 - httpcore.connection - DEBUG - connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=600.0 socket_options=None
+2026-04-27 13:45:28,104 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC149B3290>
+2026-04-27 13:45:28,104 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AC12CE7D10> server_hostname='openrouter.ai' timeout=600.0
+2026-04-27 13:45:28,140 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC12DC7A90>
+2026-04-27 13:45:28,140 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-04-27 13:45:28,141 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-27 13:45:28,141 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-04-27 13:45:28,142 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-27 13:45:28,142 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-04-27 13:45:29,965 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 27 Apr 2026 08:15:33 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Access-Control-Allow-Origin', b'*'), (b'X-Generation-Id', b'gen-1777277731-nfyFrF0TsdOeaGP4Ddlp'), (b'access-control-expose-headers', b'X-Generation-Id,cf-ray'), (b'Permissions-Policy', b'payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")'), (b'Referrer-Policy', b'no-referrer, strict-origin-when-cross-origin'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9f2c613e6ea2dc7f-DEL')])
+2026-04-27 13:45:29,966 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-04-27 13:45:30,218 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-27 13:45:30,218 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-27 13:45:30,221 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-27 13:45:30,221 - LiteLLM - DEBUG - RAW RESPONSE:
+
+         
+
+         
+{"id":"gen-1777277731-nfyFrF0TsdOeaGP4Ddlp","object":"chat.completion","created":1777277732,"model":"google/gemini-2.5-flash-lite","provider":"Google","system_fingerprint":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"STOP","message":{"role":"assistant","content":"{\n  \"agent_message\": \"Hello! Thank you for calling. How can I help you today?\",\n  \"next_stage\": \"CHIEF_COMPLAINT\"\n}","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":327,"completion_tokens":40,"total_tokens":367,"cost":0.0000487,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.0000487,"upstream_inference_prompt_cost":0.0000327,"upstream_inference_completions_cost":0.000016},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}
+
+
+2026-04-27 13:45:30,225 - LiteLLM - DEBUG - RAW RESPONSE:
+ModelResponse(id='gen-1777277731-nfyFrF0TsdOeaGP4Ddlp', created=1777277732, model='google/gemini-2.5-flash-lite', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='{\n  "agent_message": "Hello! Thank you for calling. How can I help you today?",\n  "next_stage": "CHIEF_COMPLAINT"\n}', role='assistant', tool_calls=None, function_call=None, provider_specific_fields={'reasoning': None, 'refusal': None}), provider_specific_fields={'native_finish_reason': 'STOP'})], usage=Usage(completion_tokens=40, prompt_tokens=327, total_tokens=367, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=None, text_tokens=None, image_tokens=0, video_tokens=None), prompt_tokens_details=PromptTokensDetailsWrapper(audio_tokens=0, cached_tokens=0, text_tokens=None, image_tokens=None, video_tokens=0, cache_write_tokens=0), cost=4.87e-05, is_byok=False, cost_details={'upstream_inference_cost': 4.87e-05, 'upstream_inference_prompt_cost': 3.27e-05, 'upstream_inference_completions_cost': 1.6e-05}), provider='Google')
+
+
+2026-04-27 13:45:30,226 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:45:30,227 - LiteLLM - DEBUG - Logging Details LiteLLM-Success Call: Cache_hit=None
+2026-04-27 13:45:30,228 - LiteLLM - DEBUG - response_cost: 4.87e-05
+2026-04-27 13:45:30,228 - LiteLLM - DEBUG - response_cost: 4.87e-05
+2026-04-27 13:45:30,228 - main - INFO - LLM Response: {
+  "agent_message": "Hello! Thank you for calling. How can I help you today?",
+  "next_stage": "CHIEF_COMPLAINT"
+}
+2026-04-27 13:45:30,229 - main - DEBUG - Raw LLM Content for parsing: {
+  "agent_message": "Hello! Thank you for calling. How can I help you today?",
+  "next_stage": "CHIEF_COMPLAINT"
+}
+2026-04-27 13:45:30,231 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'google/gemini-2.5-flash-lite', 'combined_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'stripped_model_name': 'google/gemini-2.5-flash-lite', 'combined_stripped_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:30,234 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:30,235 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=google/gemini-2.5-flash-lite, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=google/gemini-2.5-flash-lite, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:30,237 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=google/gemini-2.5-flash-lite, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=google/gemini-2.5-flash-lite
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:30,238 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'google/gemini-2.5-flash-lite', 'combined_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'stripped_model_name': 'google/gemini-2.5-flash-lite', 'combined_stripped_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:30,239 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:30,239 - LiteLLM - DEBUG - Model=google/gemini-2.5-flash-lite is not mapped in model cost map. Defaulting to None model_cost_information for standard_logging_payload
+2026-04-27 13:45:49,307 - main - DEBUG - Using provider: openrouter
+2026-04-27 13:45:49,309 - LiteLLM - DEBUG - 
+
+2026-04-27 13:45:49,309 - LiteLLM - DEBUG - [92mRequest to litellm:[0m
+2026-04-27 13:45:49,309 - LiteLLM - DEBUG - [92mlitellm.completion(model='openrouter/auto', api_base='https://openrouter.ai/api/v1', headers={'HTTP-Referer': 'http://localhost:8080', 'X-Title': 'Intake Agent'}, messages=[{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: CHIEF_COMPLAINT\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}], max_tokens=1000, temperature=0.1)[0m
+2026-04-27 13:45:49,311 - LiteLLM - DEBUG - 
+
+2026-04-27 13:45:49,311 - LiteLLM - DEBUG - Removing thought signatures from tool call IDs for non-Gemini model
+2026-04-27 13:45:49,312 - LiteLLM - DEBUG - self.optional_params: {}
+2026-04-27 13:45:49,312 - LiteLLM - DEBUG - SYNC kwargs[caching]: False; litellm.cache: None; kwargs.get('cache')['no-cache']: False
+2026-04-27 13:45:49,312 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:49,314 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:49,314 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:49,315 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:49,315 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:49,316 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:49,318 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:49,319 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:45:49,319 - LiteLLM - DEBUG - 
+LiteLLM: Params passed to completion() {'model': 'auto', 'functions': None, 'function_call': None, 'temperature': 0.1, 'top_p': None, 'n': None, 'stream': None, 'stream_options': None, 'stop': None, 'max_tokens': 1000, 'max_completion_tokens': None, 'modalities': None, 'prediction': None, 'audio': None, 'presence_penalty': None, 'frequency_penalty': None, 'logit_bias': None, 'user': None, 'custom_llm_provider': 'openrouter', 'response_format': None, 'seed': None, 'tools': None, 'tool_choice': None, 'max_retries': None, 'logprobs': None, 'top_logprobs': None, 'extra_headers': None, 'api_version': None, 'parallel_tool_calls': None, 'drop_params': None, 'allowed_openai_params': None, 'reasoning_effort': None, 'verbosity': None, 'additional_drop_params': None, 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: CHIEF_COMPLAINT\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}], 'thinking': None, 'web_search_options': None, 'safety_identifier': None, 'service_tier': None}
+2026-04-27 13:45:49,321 - LiteLLM - DEBUG - 
+LiteLLM: Non-Default params passed to completion() {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:45:49,322 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:49,322 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:49,323 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:49,323 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:49,325 - LiteLLM - DEBUG - Final returned optional params: {'temperature': 0.1, 'max_tokens': 1000, 'extra_body': {}}
+2026-04-27 13:45:49,326 - LiteLLM - DEBUG - self.optional_params: {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:45:49,326 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:49,326 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:49,327 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:49,328 - LiteLLM - DEBUG - [92m
+
+POST Request Sent from LiteLLM:
+curl -X POST \
+https://openrouter.ai/api/v1/chat/completions \
+-H 'HTTP-Referer: http://localhost:8080' -H 'X-Title: Intake Agent' -H 'Authorization: Be****ed' -H 'Content-Type: application/json' \
+-d '{'model': 'auto', 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: CHIEF_COMPLAINT\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}], 'temperature': 0.1, 'max_tokens': 1000, 'usage': {'include': True}}'
+[0m
+
+2026-04-27 13:45:49,330 - httpcore.connection - DEBUG - close.started
+2026-04-27 13:45:49,331 - httpcore.connection - DEBUG - close.complete
+2026-04-27 13:45:49,331 - httpcore.connection - DEBUG - connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=600.0 socket_options=None
+2026-04-27 13:45:49,407 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC149C9390>
+2026-04-27 13:45:49,407 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AC12CE7D10> server_hostname='openrouter.ai' timeout=600.0
+2026-04-27 13:45:49,568 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC149C93D0>
+2026-04-27 13:45:49,569 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-04-27 13:45:49,571 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-27 13:45:49,571 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-04-27 13:45:49,572 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-27 13:45:49,572 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-04-27 13:45:53,407 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 27 Apr 2026 08:15:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Access-Control-Allow-Origin', b'*'), (b'X-Generation-Id', b'gen-1777277754-vjhZjnxipT8RPcTizK07'), (b'access-control-expose-headers', b'X-Generation-Id,cf-ray'), (b'Permissions-Policy', b'payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")'), (b'Referrer-Policy', b'no-referrer, strict-origin-when-cross-origin'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9f2c61c48b060fc5-AGR')])
+2026-04-27 13:45:53,408 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-04-27 13:45:58,170 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-27 13:45:58,170 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-27 13:45:58,170 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-27 13:45:58,171 - LiteLLM - DEBUG - RAW RESPONSE:
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1777277754-vjhZjnxipT8RPcTizK07","object":"chat.completion","created":1777277754,"model":"mistralai/mistral-7b-instruct-v0.1","provider":"Cloudflare","system_fingerprint":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":" {\n\"agent_message\": \"I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?\",\n\"next_stage\": \"HPI\"\n}","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":401,"completion_tokens":69,"total_tokens":470,"cost":0.00005722,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00005722,"upstream_inference_prompt_cost":0.00004411,"upstream_inference_completions_cost":0.00001311},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}
+
+
+2026-04-27 13:45:58,174 - LiteLLM - DEBUG - RAW RESPONSE:
+ModelResponse(id='gen-1777277754-vjhZjnxipT8RPcTizK07', created=1777277754, model='mistralai/mistral-7b-instruct-v0.1', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content=' {\n"agent_message": "I\'m sorry to hear that you\'ve been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?",\n"next_stage": "HPI"\n}', role='assistant', tool_calls=None, function_call=None, provider_specific_fields={'reasoning': None, 'refusal': None}), provider_specific_fields={'native_finish_reason': 'stop'})], usage=Usage(completion_tokens=69, prompt_tokens=401, total_tokens=470, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=None, text_tokens=None, image_tokens=0, video_tokens=None), prompt_tokens_details=PromptTokensDetailsWrapper(audio_tokens=0, cached_tokens=0, text_tokens=None, image_tokens=None, video_tokens=0, cache_write_tokens=0), cost=5.722e-05, is_byok=False, cost_details={'upstream_inference_cost': 5.722e-05, 'upstream_inference_prompt_cost': 4.411e-05, 'upstream_inference_completions_cost': 1.311e-05}), provider='Cloudflare')
+
+
+2026-04-27 13:45:58,175 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:45:58,176 - LiteLLM - DEBUG - response_cost: 5.722e-05
+2026-04-27 13:45:58,176 - LiteLLM - DEBUG - Logging Details LiteLLM-Success Call: Cache_hit=None
+2026-04-27 13:45:58,176 - main - INFO - LLM Response:  {
+"agent_message": "I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?",
+"next_stage": "HPI"
+}
+2026-04-27 13:45:58,178 - main - DEBUG - Raw LLM Content for parsing:  {
+"agent_message": "I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?",
+"next_stage": "HPI"
+}
+2026-04-27 13:45:58,177 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'mistralai/mistral-7b-instruct-v0.1', 'combined_model_name': 'openrouter/mistralai/mistral-7b-instruct-v0.1', 'stripped_model_name': 'mistralai/mistral-7b-instruct-v0.1', 'combined_stripped_model_name': 'openrouter/mistralai/mistral-7b-instruct-v0.1', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:58,178 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:58,179 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=mistralai/mistral-7b-instruct-v0.1, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=mistralai/mistral-7b-instruct-v0.1, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:45:58,180 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=mistralai/mistral-7b-instruct-v0.1, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=mistralai/mistral-7b-instruct-v0.1
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:45:58,181 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'mistralai/mistral-7b-instruct-v0.1', 'combined_model_name': 'openrouter/mistralai/mistral-7b-instruct-v0.1', 'stripped_model_name': 'mistralai/mistral-7b-instruct-v0.1', 'combined_stripped_model_name': 'openrouter/mistralai/mistral-7b-instruct-v0.1', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:45:58,181 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:45:58,182 - LiteLLM - DEBUG - Model=mistralai/mistral-7b-instruct-v0.1 is not mapped in model cost map. Defaulting to None model_cost_information for standard_logging_payload
+2026-04-27 13:46:11,455 - main - DEBUG - Using provider: openrouter
+2026-04-27 13:46:11,456 - LiteLLM - DEBUG - 
+
+2026-04-27 13:46:11,457 - LiteLLM - DEBUG - [92mRequest to litellm:[0m
+2026-04-27 13:46:11,457 - LiteLLM - DEBUG - [92mlitellm.completion(model='openrouter/auto', api_base='https://openrouter.ai/api/v1', headers={'HTTP-Referer': 'http://localhost:8080', 'X-Title': 'Intake Agent'}, messages=[{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: HPI\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}, {'role': 'assistant', 'content': "I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?"}, {'role': 'user', 'content': "It's on both sides, 7 out of 10. Can we finish now?"}], max_tokens=1000, temperature=0.1)[0m
+2026-04-27 13:46:11,459 - LiteLLM - DEBUG - 
+
+2026-04-27 13:46:11,460 - LiteLLM - DEBUG - Removing thought signatures from tool call IDs for non-Gemini model
+2026-04-27 13:46:11,460 - LiteLLM - DEBUG - self.optional_params: {}
+2026-04-27 13:46:11,460 - LiteLLM - DEBUG - SYNC kwargs[caching]: False; litellm.cache: None; kwargs.get('cache')['no-cache']: False
+2026-04-27 13:46:11,461 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:11,462 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:11,462 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:46:11,463 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:11,464 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:11,464 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:46:11,465 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:46:11,465 - LiteLLM - INFO - 
+LiteLLM completion() model= auto; provider = openrouter
+2026-04-27 13:46:11,466 - LiteLLM - DEBUG - 
+LiteLLM: Params passed to completion() {'model': 'auto', 'functions': None, 'function_call': None, 'temperature': 0.1, 'top_p': None, 'n': None, 'stream': None, 'stream_options': None, 'stop': None, 'max_tokens': 1000, 'max_completion_tokens': None, 'modalities': None, 'prediction': None, 'audio': None, 'presence_penalty': None, 'frequency_penalty': None, 'logit_bias': None, 'user': None, 'custom_llm_provider': 'openrouter', 'response_format': None, 'seed': None, 'tools': None, 'tool_choice': None, 'max_retries': None, 'logprobs': None, 'top_logprobs': None, 'extra_headers': None, 'api_version': None, 'parallel_tool_calls': None, 'drop_params': None, 'allowed_openai_params': None, 'reasoning_effort': None, 'verbosity': None, 'additional_drop_params': None, 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: HPI\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}, {'role': 'assistant', 'content': "I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?"}, {'role': 'user', 'content': "It's on both sides, 7 out of 10. Can we finish now?"}], 'thinking': None, 'web_search_options': None, 'safety_identifier': None, 'service_tier': None}
+2026-04-27 13:46:11,468 - LiteLLM - DEBUG - 
+LiteLLM: Non-Default params passed to completion() {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:46:11,468 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:11,468 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:11,470 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=openrouter/auto, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=openrouter/auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:46:11,471 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=auto, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=auto
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:46:11,472 - LiteLLM - DEBUG - Final returned optional params: {'temperature': 0.1, 'max_tokens': 1000, 'extra_body': {}}
+2026-04-27 13:46:11,473 - LiteLLM - DEBUG - self.optional_params: {'temperature': 0.1, 'max_tokens': 1000}
+2026-04-27 13:46:11,473 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'auto', 'combined_model_name': 'openrouter/auto', 'stripped_model_name': 'auto', 'combined_stripped_model_name': 'openrouter/auto', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:11,473 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:11,474 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. model=auto, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:46:11,475 - LiteLLM - DEBUG - [92m
+
+POST Request Sent from LiteLLM:
+curl -X POST \
+https://openrouter.ai/api/v1/chat/completions \
+-H 'HTTP-Referer: http://localhost:8080' -H 'X-Title: Intake Agent' -H 'Authorization: Be****ed' -H 'Content-Type: application/json' \
+-d '{'model': 'auto', 'messages': [{'role': 'system', 'content': 'You are a Clinical Intake Agent. Your goal is to systematically collect patient information.\nYou must guide the conversation through the following stages:\n1. GREETING: Briefly greet the patient and ask how you can help them today.\n2. CHIEF_COMPLAINT: Identify the main reason for the visit.\n3. HPI (History of Present Illness): Ask specific questions to expand on the chief complaint (e.g., onset, location, duration, character, aggravating/alleviating factors, radiation, timing, severity).\n4. FOCUSED_ROS (Review of Systems): Ask about related symptoms.\n5. CLARIFICATION: Ask any final clarifying questions if needed.\n6. COMPLETE: Tell the patient you have all the necessary information and end the intake gracefully.\n\nCurrent Stage: HPI\n\nIMPORTANT: You MUST respond in valid JSON format with exactly two keys:\n- "agent_message": Your conversational response to the patient.\n- "next_stage": The stage we should transition to after your message. Must be one of: GREETING, CHIEF_COMPLAINT, HPI, FOCUSED_ROS, CLARIFICATION, COMPLETE.\n\nRules:\n- Ask only 1-2 questions at a time.\n- Be empathetic, concise, and professional.\n- Move to the next stage when you have gathered sufficient information for the current stage.\n- Do NOT output any conversational text OUTSIDE of the JSON object.\n- Do NOT output any markdown blocks (like ```json), just output the raw JSON object.\n'}, {'role': 'assistant', 'content': 'Hello! Thank you for calling. How can I help you today?'}, {'role': 'user', 'content': 'I have a bad headache for 2 days.'}, {'role': 'assistant', 'content': "I'm sorry to hear that you've been experiencing a headache for the past two days. Could you please describe the location of the pain, and rate its severity on a scale of 1 to 10?"}, {'role': 'user', 'content': "It's on both sides, 7 out of 10. Can we finish now?"}], 'temperature': 0.1, 'max_tokens': 1000, 'usage': {'include': True}}'
+[0m
+
+2026-04-27 13:46:11,478 - httpcore.connection - DEBUG - close.started
+2026-04-27 13:46:11,479 - httpcore.connection - DEBUG - close.complete
+2026-04-27 13:46:11,479 - httpcore.connection - DEBUG - connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=600.0 socket_options=None
+2026-04-27 13:46:11,531 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC149D1550>
+2026-04-27 13:46:11,531 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AC12CE7D10> server_hostname='openrouter.ai' timeout=600.0
+2026-04-27 13:46:11,570 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC149D1590>
+2026-04-27 13:46:11,570 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-04-27 13:46:11,571 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-04-27 13:46:11,571 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-04-27 13:46:11,571 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-04-27 13:46:11,572 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-04-27 13:46:15,612 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 27 Apr 2026 08:16:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Access-Control-Allow-Origin', b'*'), (b'X-Generation-Id', b'gen-1777277775-V5zfikcvZMDpqtzEoego'), (b'access-control-expose-headers', b'X-Generation-Id,cf-ray'), (b'Permissions-Policy', b'payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")'), (b'Referrer-Policy', b'no-referrer, strict-origin-when-cross-origin'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9f2c624e087533d2-DEL')])
+2026-04-27 13:46:15,612 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-04-27 13:46:16,260 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-04-27 13:46:16,260 - httpcore.http11 - DEBUG - response_closed.started
+2026-04-27 13:46:16,261 - httpcore.http11 - DEBUG - response_closed.complete
+2026-04-27 13:46:16,261 - LiteLLM - DEBUG - RAW RESPONSE:
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1777277775-V5zfikcvZMDpqtzEoego","object":"chat.completion","created":1777277776,"model":"google/gemini-2.5-flash-lite","provider":"Google","system_fingerprint":null,"choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"STOP","message":{"role":"assistant","content":"I understand you'd like to finish, but I need to ask a few more questions to get a complete picture of your headache. Have you noticed anything that makes the headache worse or better?","refusal":null,"reasoning":null}}],"usage":{"prompt_tokens":416,"completion_tokens":39,"total_tokens":455,"cost":0.0000572,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.0000572,"upstream_inference_prompt_cost":0.0000416,"upstream_inference_completions_cost":0.0000156},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}
+
+
+2026-04-27 13:46:16,262 - LiteLLM - DEBUG - RAW RESPONSE:
+ModelResponse(id='gen-1777277775-V5zfikcvZMDpqtzEoego', created=1777277776, model='google/gemini-2.5-flash-lite', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content="I understand you'd like to finish, but I need to ask a few more questions to get a complete picture of your headache. Have you noticed anything that makes the headache worse or better?", role='assistant', tool_calls=None, function_call=None, provider_specific_fields={'reasoning': None, 'refusal': None}), provider_specific_fields={'native_finish_reason': 'STOP'})], usage=Usage(completion_tokens=39, prompt_tokens=416, total_tokens=455, completion_tokens_details=CompletionTokensDetailsWrapper(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=None, text_tokens=None, image_tokens=0, video_tokens=None), prompt_tokens_details=PromptTokensDetailsWrapper(audio_tokens=0, cached_tokens=0, text_tokens=None, image_tokens=None, video_tokens=0, cache_write_tokens=0), cost=5.72e-05, is_byok=False, cost_details={'upstream_inference_cost': 5.72e-05, 'upstream_inference_prompt_cost': 4.16e-05, 'upstream_inference_completions_cost': 1.56e-05}), provider='Google')
+
+
+2026-04-27 13:46:16,264 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2026-04-27 13:46:16,265 - LiteLLM - DEBUG - response_cost: 5.72e-05
+2026-04-27 13:46:16,265 - LiteLLM - DEBUG - Logging Details LiteLLM-Success Call: Cache_hit=None
+2026-04-27 13:46:16,265 - main - INFO - LLM Response: I understand you'd like to finish, but I need to ask a few more questions to get a complete picture of your headache. Have you noticed anything that makes the headache worse or better?
+2026-04-27 13:46:16,266 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'google/gemini-2.5-flash-lite', 'combined_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'stripped_model_name': 'google/gemini-2.5-flash-lite', 'combined_stripped_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:16,266 - main - DEBUG - Raw LLM Content for parsing: I understand you'd like to finish, but I need to ask a few more questions to get a complete picture of your headache. Have you noticed anything that makes the headache worse or better?
+2026-04-27 13:46:16,267 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:16,267 - main - ERROR - JSON Parse Error: Expecting value: line 1 column 1 (char 0) - Content: I understand you'd like to finish, but I need to ask a few more questions to get a complete picture of your headache. Have you noticed anything that makes the headache worse or better?
+2026-04-27 13:46:16,267 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=google/gemini-2.5-flash-lite, custom_llm_provider=openrouter. Error: This model isn't mapped yet. model=google/gemini-2.5-flash-lite, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.
+2026-04-27 13:46:16,269 - LiteLLM - DEBUG - Model not found or error in checking supports_reasoning support. You passed model=google/gemini-2.5-flash-lite, custom_llm_provider=None. Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=google/gemini-2.5-flash-lite
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-04-27 13:46:16,270 - LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'google/gemini-2.5-flash-lite', 'combined_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'stripped_model_name': 'google/gemini-2.5-flash-lite', 'combined_stripped_model_name': 'openrouter/google/gemini-2.5-flash-lite', 'custom_llm_provider': 'openrouter'}
+2026-04-27 13:46:16,270 - LiteLLM - DEBUG - Error getting model info: This model isn't mapped yet. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+2026-04-27 13:46:16,272 - LiteLLM - DEBUG - Model=google/gemini-2.5-flash-lite is not mapped in model cost map. Defaulting to None model_cost_information for standard_logging_payload
