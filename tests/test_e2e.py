@@ -20,7 +20,7 @@ def mock_get_llm_response(messages):
     global call_count
     
     # Check if this is a brief generation
-    if any("Review the following patient intake conversation" in m.get('content', '') for m in messages):
+    if any("Review the patient intake conversation" in m.get('content', '') for m in messages):
         content = json.dumps({
             "chief_complaint": "Headache",
             "hpi": "Started 2 days ago, throbbing pain",
