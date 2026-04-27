@@ -8,7 +8,7 @@ from unittest.mock import patch
 from playwright.sync_api import sync_playwright
 
 # Import the FastAPI app
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import main
 
 class MockMessage:
