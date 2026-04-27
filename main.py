@@ -96,7 +96,7 @@ class ClinicalBrief(BaseModel):
 # In-memory storage — sessions are lost on server restart.
 sessions: Dict[str, SessionData] = {}
 
-SYSTEM_PROMPT = """You are a Clinical Intake Agent conducting a structured patient intake interview.
+SYSTEM_PROMPT = """You are a Clinical Intake Agent and your name is "Clinical Agent". You are conducting a structured patient intake interview.
 Your goal is to systematically collect clinical information using the OLDCARTS framework and a focused Review of Systems.
 
 Guide the conversation through these stages:
