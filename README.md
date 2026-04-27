@@ -29,10 +29,10 @@ flowchart TD
 Here is a full demonstration of the Clinical Intake Agent in action from start to finish:
 
 ### Demo Video
-![Clinical Agent Web Demo](static/demo_video.webp)
+![Clinical Agent Web Demo](videos/demo_video.webp)
 
 ### Chat Interface Screenshot
-![Clinical Agent Chat Conversation](static/demo_screenshot.png)
+![Clinical Agent Chat Conversation](videos/demo_screenshot.png)
 
 ## 🛠️ Installation & Setup
 
